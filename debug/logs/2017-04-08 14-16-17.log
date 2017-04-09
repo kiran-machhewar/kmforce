@@ -1,0 +1,82 @@
+39.0 APEX_CODE,DEBUG
+Execute Anonymous: ExportReportService.main();
+13:16:15.142 (142170960)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+13:16:15.142 (142209564)|EXECUTION_STARTED
+13:16:15.142 (142271441)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+13:16:15.142 (253684861)|USER_DEBUG|[22]|DEBUG|headerColumnMap-->{
+  "ADDRESS1_STATE" : {
+    "name" : "ADDRESS1_STATE",
+    "label" : "Billing State/Province",
+    "dataType" : "STRING_DATA"
+  },
+  "LAST_UPDATE" : {
+    "name" : "LAST_UPDATE",
+    "label" : "Last Modified Date",
+    "dataType" : "DATETIME_DATA"
+  },
+  "DUE_DATE" : {
+    "name" : "DUE_DATE",
+    "label" : "Last Activity",
+    "dataType" : "DATE_DATA"
+  },
+  "RATING" : {
+    "name" : "RATING",
+    "label" : "Rating",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "TYPE" : {
+    "name" : "TYPE",
+    "label" : "Type",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "ACCOUNT.NAME" : {
+    "name" : "ACCOUNT.NAME",
+    "label" : "Account Name",
+    "dataType" : "STRING_DATA"
+  },
+  "USERS.NAME" : {
+    "name" : "USERS.NAME",
+    "label" : "Account Owner",
+    "dataType" : "STRING_DATA"
+  }
+}
+13:16:15.142 (253998245)|USER_DEBUG|[24]|DEBUG|ReportMetadata -->{
+  "topRows" : null,
+  "standardFilters" : null,
+  "standardDateFilter" : {
+    "startDate" : "2014-04-01",
+    "endDate" : null,
+    "durationValue" : "CUSTOM",
+    "column" : "CREATED_DATE"
+  },
+  "sortBy" : null,
+  "showSubtotals" : true,
+  "showGrandTotal" : true,
+  "scope" : "organization",
+  "reportType" : {
+    "type" : "AccountList",
+    "label" : "Accounts"
+  },
+  "reportFormat" : "TABULAR",
+  "reportFilters" : null,
+  "reportBooleanFilter" : null,
+  "name" : "All Accounts",
+  "id" : "00O2800000A3aUEEAZ",
+  "historicalSnapshotDates" : null,
+  "hasRecordCount" : true,
+  "hasDetailRows" : true,
+  "groupingsDown" : null,
+  "groupingsAcross" : null,
+  "division" : null,
+  "developerName" : "All_Accounts",
+  "detailColumns" : [ "USERS.NAME", "ACCOUNT.NAME", "TYPE", "RATING", "DUE_DATE", "LAST_UPDATE", "ADDRESS1_STATE" ],
+  "description" : null,
+  "customSummaryFormula" : null,
+  "currencyCode" : null,
+  "crossFilters" : null,
+  "buckets" : null,
+  "aggregates" : [ "RowCount" ]
+}
+13:16:15.142 (254017173)|USER_DEBUG|[5]|DEBUG|
+13:16:15.142 (254091778)|CODE_UNIT_FINISHED|execute_anonymous_apex
+13:16:15.142 (255934791)|EXECUTION_FINISHED

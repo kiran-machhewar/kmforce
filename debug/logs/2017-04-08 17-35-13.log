@@ -1,0 +1,7 @@
+39.0 APEX_CODE,DEBUG
+Execute Anonymous: delete [Select Id From Account where CreatedDate = TODAY];
+16:34:42.15 (15361257)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+16:34:42.15 (15372277)|EXECUTION_STARTED
+16:34:42.15 (15376175)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+16:35:12.119 (30119501237)|CODE_UNIT_FINISHED|execute_anonymous_apex
+16:35:12.119 (30121711782)|EXECUTION_FINISHED

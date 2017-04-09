@@ -1,0 +1,12 @@
+39.0 APEX_CODE,DEBUG
+Execute Anonymous: List<Account> accList = new List<Account>();
+Execute Anonymous: 
+Execute Anonymous: for(Integer index = 0; index< 6000;index++){
+Execute Anonymous:    accList.add(new Account(Name='Kiran'+index));
+Execute Anonymous: }
+Execute Anonymous: insert accList;
+16:16:37.13 (13786727)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+16:16:37.13 (13805567)|EXECUTION_STARTED
+16:16:37.13 (13810341)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+16:17:16.382 (39382635437)|CODE_UNIT_FINISHED|execute_anonymous_apex
+16:17:16.382 (39384349527)|EXECUTION_FINISHED

@@ -1,0 +1,54 @@
+39.0 APEX_CODE,DEBUG
+Execute Anonymous: ExportReportService.main();
+13:24:05.245 (245601107)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+13:24:05.245 (245617337)|EXECUTION_STARTED
+13:24:05.245 (245621305)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+13:24:05.245 (322406095)|USER_DEBUG|[22]|DEBUG|headerColumnMap-->{
+  "ADDRESS1_STATE" : {
+    "name" : "ADDRESS1_STATE",
+    "label" : "Billing State/Province",
+    "dataType" : "STRING_DATA"
+  },
+  "LAST_UPDATE" : {
+    "name" : "LAST_UPDATE",
+    "label" : "Last Modified Date",
+    "dataType" : "DATETIME_DATA"
+  },
+  "DUE_DATE" : {
+    "name" : "DUE_DATE",
+    "label" : "Last Activity",
+    "dataType" : "DATE_DATA"
+  },
+  "RATING" : {
+    "name" : "RATING",
+    "label" : "Rating",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "TYPE" : {
+    "name" : "TYPE",
+    "label" : "Type",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "ACCOUNT.NAME" : {
+    "name" : "ACCOUNT.NAME",
+    "label" : "Account Name",
+    "dataType" : "STRING_DATA"
+  },
+  "USERS.NAME" : {
+    "name" : "USERS.NAME",
+    "label" : "Account Owner",
+    "dataType" : "STRING_DATA"
+  }
+}
+13:24:05.245 (322537812)|USER_DEBUG|[24]|DEBUG|ReportMetadata -->[ "USERS.NAME", "ACCOUNT.NAME", "TYPE", "RATING", "DUE_DATE", "LAST_UPDATE", "ADDRESS1_STATE" ]
+13:24:05.245 (322581473)|USER_DEBUG|[27]|DEBUG|Account Owner
+13:24:05.245 (322595255)|USER_DEBUG|[27]|DEBUG|Account Name
+13:24:05.245 (322602722)|USER_DEBUG|[27]|DEBUG|Type
+13:24:05.245 (322609207)|USER_DEBUG|[27]|DEBUG|Rating
+13:24:05.245 (322616012)|USER_DEBUG|[27]|DEBUG|Last Activity
+13:24:05.245 (322622271)|USER_DEBUG|[27]|DEBUG|Last Modified Date
+13:24:05.245 (322628726)|USER_DEBUG|[27]|DEBUG|Billing State/Province
+13:24:05.245 (322661877)|USER_DEBUG|[31]|DEBUG|CSV File-->"Account Owner","Account Name","Type","Rating","Last Activity","Last Modified Date","Billing State/Province"
+13:24:05.245 (322668717)|USER_DEBUG|[5]|DEBUG|"Account Owner","Account Name","Type","Rating","Last Activity","Last Modified Date","Billing State/Province"
+13:24:05.245 (322709037)|CODE_UNIT_FINISHED|execute_anonymous_apex
+13:24:05.245 (324304096)|EXECUTION_FINISHED

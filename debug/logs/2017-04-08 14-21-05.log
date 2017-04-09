@@ -1,0 +1,53 @@
+39.0 APEX_CODE,DEBUG
+Execute Anonymous: ExportReportService.main();
+13:21:04.134 (134624019)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+13:21:04.134 (134649179)|EXECUTION_STARTED
+13:21:04.134 (134654733)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+13:21:04.134 (257813333)|USER_DEBUG|[22]|DEBUG|headerColumnMap-->{
+  "ADDRESS1_STATE" : {
+    "name" : "ADDRESS1_STATE",
+    "label" : "Billing State/Province",
+    "dataType" : "STRING_DATA"
+  },
+  "LAST_UPDATE" : {
+    "name" : "LAST_UPDATE",
+    "label" : "Last Modified Date",
+    "dataType" : "DATETIME_DATA"
+  },
+  "DUE_DATE" : {
+    "name" : "DUE_DATE",
+    "label" : "Last Activity",
+    "dataType" : "DATE_DATA"
+  },
+  "RATING" : {
+    "name" : "RATING",
+    "label" : "Rating",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "TYPE" : {
+    "name" : "TYPE",
+    "label" : "Type",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "ACCOUNT.NAME" : {
+    "name" : "ACCOUNT.NAME",
+    "label" : "Account Name",
+    "dataType" : "STRING_DATA"
+  },
+  "USERS.NAME" : {
+    "name" : "USERS.NAME",
+    "label" : "Account Owner",
+    "dataType" : "STRING_DATA"
+  }
+}
+13:21:04.134 (258005825)|USER_DEBUG|[24]|DEBUG|ReportMetadata -->[ "USERS.NAME", "ACCOUNT.NAME", "TYPE", "RATING", "DUE_DATE", "LAST_UPDATE", "ADDRESS1_STATE" ]
+13:21:04.134 (258059243)|USER_DEBUG|[26]|DEBUG|Account Owner
+13:21:04.134 (258074525)|USER_DEBUG|[26]|DEBUG|Account Name
+13:21:04.134 (258085646)|USER_DEBUG|[26]|DEBUG|Type
+13:21:04.134 (258095897)|USER_DEBUG|[26]|DEBUG|Rating
+13:21:04.134 (258106060)|USER_DEBUG|[26]|DEBUG|Last Activity
+13:21:04.134 (258116721)|USER_DEBUG|[26]|DEBUG|Last Modified Date
+13:21:04.134 (258127179)|USER_DEBUG|[26]|DEBUG|Billing State/Province
+13:21:04.134 (258139908)|USER_DEBUG|[5]|DEBUG|
+13:21:04.134 (258197747)|CODE_UNIT_FINISHED|execute_anonymous_apex
+13:21:04.134 (259955453)|EXECUTION_FINISHED

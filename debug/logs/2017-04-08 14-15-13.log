@@ -1,0 +1,45 @@
+39.0 APEX_CODE,DEBUG
+Execute Anonymous: ExportReportService.main();
+13:15:11.139 (139488416)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+13:15:11.139 (139510460)|EXECUTION_STARTED
+13:15:11.139 (139516669)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+13:15:11.139 (218154403)|USER_DEBUG|[21]|DEBUG|headerColumnMap-->{
+  "ADDRESS1_STATE" : {
+    "name" : "ADDRESS1_STATE",
+    "label" : "Billing State/Province",
+    "dataType" : "STRING_DATA"
+  },
+  "LAST_UPDATE" : {
+    "name" : "LAST_UPDATE",
+    "label" : "Last Modified Date",
+    "dataType" : "DATETIME_DATA"
+  },
+  "DUE_DATE" : {
+    "name" : "DUE_DATE",
+    "label" : "Last Activity",
+    "dataType" : "DATE_DATA"
+  },
+  "RATING" : {
+    "name" : "RATING",
+    "label" : "Rating",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "TYPE" : {
+    "name" : "TYPE",
+    "label" : "Type",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "ACCOUNT.NAME" : {
+    "name" : "ACCOUNT.NAME",
+    "label" : "Account Name",
+    "dataType" : "STRING_DATA"
+  },
+  "USERS.NAME" : {
+    "name" : "USERS.NAME",
+    "label" : "Account Owner",
+    "dataType" : "STRING_DATA"
+  }
+}
+13:15:11.139 (218179051)|USER_DEBUG|[5]|DEBUG|
+13:15:11.139 (218230203)|CODE_UNIT_FINISHED|execute_anonymous_apex
+13:15:11.139 (220008756)|EXECUTION_FINISHED

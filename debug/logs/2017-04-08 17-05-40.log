@@ -1,0 +1,38 @@
+39.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+16:05:39.0 (224782)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+16:05:39.0 (265982)|EXECUTION_STARTED
+16:05:39.0 (270821)|CODE_UNIT_STARTED|[EXTERNAL]|EmailReportExport
+16:05:39.0 (1695717)|SYSTEM_MODE_ENTER|false
+16:05:39.0 (1712353)|SYSTEM_MODE_EXIT|false
+16:05:39.0 (1724161)|SYSTEM_MODE_ENTER|false
+16:05:39.0 (1734192)|SYSTEM_MODE_EXIT|false
+16:05:39.0 (1738744)|SYSTEM_MODE_ENTER|false
+16:05:39.0 (1741596)|SYSTEM_MODE_EXIT|false
+16:05:39.0 (1773605)|SYSTEM_MODE_ENTER|false
+16:05:39.0 (70734947)|USER_DEBUG|[21]|DEBUG|Account Owner
+16:05:39.0 (70838109)|USER_DEBUG|[21]|DEBUG|Account Name
+16:05:39.0 (70894583)|USER_DEBUG|[21]|DEBUG|Rating
+16:05:39.0 (70947375)|USER_DEBUG|[21]|DEBUG|Last Activity
+16:05:39.0 (71000068)|USER_DEBUG|[21]|DEBUG|Last Modified Date
+16:05:39.0 (71075203)|USER_DEBUG|[21]|DEBUG|Billing State/Province
+16:05:39.0 (91196091)|EMAIL_QUEUE|[62]|subject: All Accounts CSV, bccSender: false, saveAsActivity: false, useSignature: true, targetObjectId: 00528000001szBz, plainTextBody: Hi,
+Please consider the attached report export.
+ Thanks,
+Salesforce, 
+16:05:39.0 (91406148)|USER_DEBUG|[63]|DEBUG|CSV File-->
+"Account Owner","Account Name","Rating","Last Activity","Last Modified Date","Billing State/Province"
+"Kiran Machhewar","sForce","","","2/1/2016","CA"
+"Kiran Machhewar","United Oil & Gas Corp.","Hot","","2/1/2016","NY"
+"Kiran Machhewar","University of Arizona","Warm","","2/1/2016","AZ"
+"Kiran Machhewar","Grand Hotels & Resorts Ltd","Warm","","2/1/2016","IL"
+"Kiran Machhewar","Burlington Textiles Corp of America","Warm","","2/1/2016","NC"
+"Kiran Machhewar","Edge Communications","Hot","","2/1/2016","TX"
+"Kiran Machhewar","United Oil & Gas, Singapore","","","2/1/2016","Singapore"
+"Kiran Machhewar","United Oil & Gas, UK","","","2/1/2016","UK"
+"Kiran Machhewar","Express Logistics and Transport","Cold","","2/1/2016","OR"
+"Kiran Machhewar","Dickenson plc","","","2/1/2016","KS"
+"Kiran Machhewar","Pyramid Construction Inc.","","","2/1/2016",""
+"Kiran Machhewar","GenePoint","Cold","","2/1/2016","CA"
+16:05:39.0 (91435579)|SYSTEM_MODE_EXIT|false
+16:05:39.0 (91452666)|CODE_UNIT_FINISHED|EmailReportExport
+16:05:39.0 (93966126)|EXECUTION_FINISHED

@@ -1,0 +1,81 @@
+39.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+15:48:04.0 (175076)|USER_INFO|[EXTERNAL]|00528000001szBz|kiran@kmforce.com|Pacific Standard Time|GMT-07:00
+15:48:04.0 (219626)|EXECUTION_STARTED
+15:48:04.0 (226248)|CODE_UNIT_STARTED|[EXTERNAL]|EmailReportExport
+15:48:04.0 (3826521)|SYSTEM_MODE_ENTER|false
+15:48:04.0 (3837353)|SYSTEM_MODE_EXIT|false
+15:48:04.0 (3852466)|SYSTEM_MODE_ENTER|false
+15:48:04.0 (3872521)|SYSTEM_MODE_EXIT|false
+15:48:04.0 (3881094)|SYSTEM_MODE_ENTER|false
+15:48:04.0 (3885372)|SYSTEM_MODE_EXIT|false
+15:48:04.0 (3985355)|SYSTEM_MODE_ENTER|false
+15:48:04.0 (95397481)|USER_DEBUG|[26]|DEBUG|headerColumnMap-->{
+  "ADDRESS1_STATE" : {
+    "name" : "ADDRESS1_STATE",
+    "label" : "Billing State/Province",
+    "dataType" : "STRING_DATA"
+  },
+  "LAST_UPDATE" : {
+    "name" : "LAST_UPDATE",
+    "label" : "Last Modified Date",
+    "dataType" : "DATETIME_DATA"
+  },
+  "DUE_DATE" : {
+    "name" : "DUE_DATE",
+    "label" : "Last Activity",
+    "dataType" : "DATE_DATA"
+  },
+  "RATING" : {
+    "name" : "RATING",
+    "label" : "Rating",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "TYPE" : {
+    "name" : "TYPE",
+    "label" : "Type",
+    "dataType" : "PICKLIST_DATA"
+  },
+  "ACCOUNT.NAME" : {
+    "name" : "ACCOUNT.NAME",
+    "label" : "Account Name",
+    "dataType" : "STRING_DATA"
+  },
+  "USERS.NAME" : {
+    "name" : "USERS.NAME",
+    "label" : "Account Owner",
+    "dataType" : "STRING_DATA"
+  }
+}
+15:48:04.0 (95861737)|USER_DEBUG|[28]|DEBUG|ReportMetadata -->[ "USERS.NAME", "ACCOUNT.NAME", "TYPE", "RATING", "DUE_DATE", "LAST_UPDATE", "ADDRESS1_STATE" ]
+15:48:04.0 (96000438)|USER_DEBUG|[31]|DEBUG|Account Owner
+15:48:04.0 (96058843)|USER_DEBUG|[31]|DEBUG|Account Name
+15:48:04.0 (96087468)|USER_DEBUG|[31]|DEBUG|Type
+15:48:04.0 (96114142)|USER_DEBUG|[31]|DEBUG|Rating
+15:48:04.0 (96140708)|USER_DEBUG|[31]|DEBUG|Last Activity
+15:48:04.0 (96167009)|USER_DEBUG|[31]|DEBUG|Last Modified Date
+15:48:04.0 (96193387)|USER_DEBUG|[31]|DEBUG|Billing State/Province
+15:48:04.0 (96811400)|USER_DEBUG|[41]|DEBUG|Fact Data-->[ {
+  "value" : 12,
+  "label" : "12"
+} ]
+15:48:04.0 (104279483)|USER_DEBUG|[43]|DEBUG|Data rows -->(Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=sForce, value=0012800000HzD6ZAAV], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=CA, value=CA])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=United Oil & Gas Corp., value=0012800000HzD6TAAV], Reports.ReportDataCell[label=Customer - Direct, value=Customer - Direct], Reports.ReportDataCell[label=Hot, value=Hot], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=NY, value=NY])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=University of Arizona, value=0012800000HzD6VAAV], Reports.ReportDataCell[label=Customer - Direct, value=Customer - Direct], Reports.ReportDataCell[label=Warm, value=Warm], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=AZ, value=AZ])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=Express Logistics and Transport, value=0012800000HzD6UAAV], Reports.ReportDataCell[label=Customer - Channel, value=Customer - Channel], Reports.ReportDataCell[label=Cold, value=Cold], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=OR, value=OR])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=Grand Hotels & Resorts Ltd, value=0012800000HzD6SAAV], Reports.ReportDataCell[label=Customer - Direct, value=Customer - Direct], Reports.ReportDataCell[label=Warm, value=Warm], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=IL, value=IL])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=Dickenson plc, value=0012800000HzD6RAAV], Reports.ReportDataCell[label=Customer - Channel, value=Customer - Channel], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=KS, value=KS])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=Pyramid Construction Inc., value=0012800000HzD6QAAV], Reports.ReportDataCell[label=Customer - Channel, value=Customer - Channel], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=-, value=null])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=Burlington Textiles Corp of America, value=0012800000HzD6PAAV], Reports.ReportDataCell[label=Customer - Direct, value=Customer - Direct], Reports.ReportDataCell[label=Warm, value=Warm], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=NC, value=NC])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=Edge Communications, value=0012800000HzD6OAAV], Reports.ReportDataCell[label=Customer - Direct, value=Customer - Direct], Reports.ReportDataCell[label=Hot, value=Hot], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=TX, value=TX])], Reports.ReportDetailRow[dataCells=(Reports.ReportDataCell[label=Kiran Machhewar, value=00528000001szBzAAI], Reports.ReportDataCell[label=United Oil & Gas, Singapore, value=0012800000HzD6XAAV], Reports.ReportDataCell[label=Customer - Direct, value=Customer - Direct], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=-, value=null], Reports.ReportDataCell[label=2/1/2016, value=2016-02-01 10:39:18], Reports.ReportDataCell[label=Singapore, value=Singapore])], ...)
+15:48:04.0 (166674539)|EMAIL_QUEUE|[75]|subject: All Accounts CSV, bccSender: false, saveAsActivity: true, useSignature: true, toAddresses: [kiran_machhewar@persistent.com, smachhewar@gmail.com], plainTextBody: Hi,
+Please consider the attached report export.
+ Thanks,
+Salesforce, 
+15:48:04.0 (175553409)|USER_DEBUG|[76]|DEBUG|CSV File-->"Account Owner","Account Name","Type","Rating","Last Activity","Last Modified Date","Billing State/Province"
+"Kiran Machhewar","sForce","","","","2/1/2016","CA"
+"Kiran Machhewar","United Oil & Gas Corp.","Customer - Direct","Hot","","2/1/2016","NY"
+"Kiran Machhewar","University of Arizona","Customer - Direct","Warm","","2/1/2016","AZ"
+"Kiran Machhewar","Express Logistics and Transport","Customer - Channel","Cold","","2/1/2016","OR"
+"Kiran Machhewar","Grand Hotels & Resorts Ltd","Customer - Direct","Warm","","2/1/2016","IL"
+"Kiran Machhewar","Dickenson plc","Customer - Channel","","","2/1/2016","KS"
+"Kiran Machhewar","Pyramid Construction Inc.","Customer - Channel","","","2/1/2016",""
+"Kiran Machhewar","Burlington Textiles Corp of America","Customer - Direct","Warm","","2/1/2016","NC"
+"Kiran Machhewar","Edge Communications","Customer - Direct","Hot","","2/1/2016","TX"
+"Kiran Machhewar","United Oil & Gas, Singapore","Customer - Direct","","","2/1/2016","Singapore"
+"Kiran Machhewar","United Oil & Gas, UK","Customer - Direct","","","2/1/2016","UK"
+"Kiran Machhewar","GenePoint","Customer - Channel","Cold","","2/1/2016","CA"
+15:48:04.0 (175580251)|SYSTEM_MODE_EXIT|false
+15:48:04.0 (175608336)|CODE_UNIT_FINISHED|EmailReportExport
+15:48:04.0 (177792535)|EXECUTION_FINISHED
